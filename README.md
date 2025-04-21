@@ -54,21 +54,21 @@ Average price per "view" rating (only views where average price ≥ $350,000)
 Record runtime
 
 ⚡ Performance Optimization
-# 1. Caching
+### 1. Caching
 Cache the home_sales temp table.
 
 Confirm it's cached.
 
 Rerun Query 4 on cached data and record runtime.
 
-# 2. Partitioning
+### 2. Partitioning
 Write the DataFrame as a Parquet file, partitioned by date_built.
 
 Create a new temporary table from the Parquet data.
 
 Rerun Query 4 on partitioned data and record runtime.
 
-# 3. Uncaching
+### 3. Uncaching
 Uncache the home_sales table.
 
 Confirm the table is no longer cached.
