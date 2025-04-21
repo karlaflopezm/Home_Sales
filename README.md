@@ -1,4 +1,4 @@
-## 🏡 Home Sales Analysis with PySpark
+# 🏡 Home Sales Analysis with PySpark
 This repository contains a PySpark-based analysis of home sales data. The project explores real estate trends using SparkSQL to answer business-relevant questions and benchmark the performance of caching and partitioning strategies.
 
 ## 📁 File Structure
